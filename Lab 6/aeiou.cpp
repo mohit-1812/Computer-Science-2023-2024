@@ -8,12 +8,15 @@ int main()
 	scanf("%s",&a);
 	for(i=0;a[i]!='\0';i++)
 	{
-	if(a[i]=='a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U' )
+	if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'||a[i]=='A'||a[i]=='E'||a[i]=='I'||a[i]=='O'||a[i]=='U' )
+	{
+	
 	printf("%c ",a[i]);
 	count++;
-    }
+    }}
     if(count==0)
     printf("no vowels");
+
 	
 	
 	
